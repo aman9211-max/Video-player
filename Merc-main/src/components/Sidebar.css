@@ -1,0 +1,10 @@
+button:hover{
+    background: red;
+    transform: scale(1.2);
+    border-radius: 25px;
+}
+
+
+h2{
+    color:gray;
+}

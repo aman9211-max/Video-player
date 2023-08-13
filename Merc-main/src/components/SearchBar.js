@@ -31,7 +31,14 @@ const SearchBar = () => {
             justifyContent:"space-between"
         }}
     >
-        <input type="text" value={searchTerm} className='search-bar' placeholder='Search...' onChange={(e)=>setSearchTerm(e.target.value)} style={{border:"none",width:"150%"}}/>
+        <input
+          type="text"
+          value={searchTerm}
+          className='search-bar'
+          placeholder='Search...'
+          onChange={(e) => setSearchTerm(e.target.value)}
+          style={{ border: "none", width: "150%", outline: "none" }}
+        />
         <IconButton type='submit' sx={{p:"10px", color:"red"}}>
             <Search/>
         </IconButton>

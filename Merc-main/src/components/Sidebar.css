@@ -2,6 +2,7 @@ button:hover{
     background: red;
     transform: scale(1.2);
     border-radius: 25px;
+    cursor: pointer;
 }
 
 
